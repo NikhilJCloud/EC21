@@ -9,9 +9,9 @@ terraform {
 }
 
 # Provider Block
-provider "aws" {
-  profile = "default" # AWS Credentials Profile configured on your local desktop terminal  $HOME/.aws/credentials
-  region  = "us-east-1"
+provider "aws" {  
+  profile = "Lenovo"
+  region  = "us-east-1"  
 }
 
 # Resource Block
