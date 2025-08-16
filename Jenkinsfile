@@ -51,7 +51,7 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 dir('terraform') {
-                    sh 'terraform apply -input=false tfplan'
+                    bat 'terraform apply -input=false tfplan'
                 }
             }
         }
