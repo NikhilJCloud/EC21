@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/NikhilJCloud/EC21.git"
+                            git "https://github.com/yeshwanthlm/Terraform-Jenkins.git"
                         }
                     }
                 }
@@ -52,3 +52,4 @@ pipeline {
     }
 
   }
+  
