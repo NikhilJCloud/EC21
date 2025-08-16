@@ -23,7 +23,7 @@ pipeline {
         stage('Terraform Plan') {
             steps {
                 dir('terraform') {
-                    sh '''
+                    bat '''
                         terraform init
                         terraform plan -out=tfplan
                         terraform show -no-color tfplan > tfplan.txt
